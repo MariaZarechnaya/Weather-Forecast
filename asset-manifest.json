@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Weather-Forecast/static/css/main.e5ef854e.css",
+    "main.js": "/Weather-Forecast/static/js/main.73dd8077.js",
+    "static/media/Snowy2.svg": "/Weather-Forecast/static/media/Snowy2.70b7324ea19299f8d1049fe381d8e130.svg",
+    "static/media/Thunder2.svg": "/Weather-Forecast/static/media/Thunder2.a752337ef14da9d8e7db23106af48dfd.svg",
+    "static/media/Cloudy2.svg": "/Weather-Forecast/static/media/Cloudy2.b58a24aecb1a7509be97ba0617db9e2a.svg",
+    "static/media/Rain2.svg": "/Weather-Forecast/static/media/Rain2.a418acc257b3b18b3ecd1199b0608c03.svg",
+    "static/media/Night-clear.svg": "/Weather-Forecast/static/media/Night-clear.230b8b9d7b691bb94ad31115e70a1324.svg",
+    "static/media/Night-clouds.svg": "/Weather-Forecast/static/media/Night-clouds.e6bac509b8caabda7217f6e0d1ea3154.svg",
+    "static/media/Tornado.svg": "/Weather-Forecast/static/media/Tornado.6f7b93cc0ba59e45fe4effa12bcd36b7.svg",
+    "index.html": "/Weather-Forecast/index.html",
+    "static/media/Sunny.svg": "/Weather-Forecast/static/media/Sunny.1f660242e66d2102a4dfbcd2798ab15c.svg",
+    "main.e5ef854e.css.map": "/Weather-Forecast/static/css/main.e5ef854e.css.map",
+    "main.73dd8077.js.map": "/Weather-Forecast/static/js/main.73dd8077.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5ef854e.css",
+    "static/js/main.73dd8077.js"
+  ]
+}
