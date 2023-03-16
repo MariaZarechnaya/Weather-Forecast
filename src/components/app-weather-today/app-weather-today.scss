@@ -5,13 +5,12 @@
     width: 250px;
     background-color: $background-block;
     border-radius: 10px;
-    margin-left: 40px;
+    // margin-left: 40px;
     box-shadow: $shadow;
     padding: 25px 10px;
     border: 1px solid rgba(255, 255, 255, 0.274);
     p{
         display: block;
-        padding-left: 30px;
         font-size: 23px;
         
         .span{
@@ -37,7 +36,7 @@
 }
 .app-today-section{
     display: flex;
-    justify-content: space-around
+    justify-content: space-between;
 }
 
 .change-text-color{

@@ -1,0 +1,35 @@
+[33mcommit 3bc267d766019a244844b40441d8a12fdd9d39c0[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Maria Zarechnaya <m.zarechnaya.m@mail.ru>
+Date:   Fri Feb 3 19:31:09 2023 +0300
+
+    change buttons
+
+[33mcommit 1f3f1401ce25989a9d23e48121b9b67dd0ba7a28[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Maria Zarechnaya <m.zarechnaya.m@mail.ru>
+Date:   Fri Feb 3 18:59:24 2023 +0300
+
+    change styles ad
+
+[33mcommit b483aabea60a2ee254cd2f28c90e181ecaec8a61[m
+Author: Maria Zarechnaya <m.zarechnaya.m@mail.ru>
+Date:   Fri Feb 3 16:04:15 2023 +0300
+
+    meta
+
+[33mcommit 4822c35971726602ca12629d0525213a48ed0181[m
+Author: Maria Zarechnaya <m.zarechnaya.m@mail.ru>
+Date:   Fri Feb 3 15:09:13 2023 +0300
+
+    https
+
+[33mcommit 79ea643184f4ba354b68444f1ca1aa56c1df05f6[m
+Author: Maria Zarechnaya <m.zarechnaya.m@mail.ru>
+Date:   Thu Feb 2 20:46:49 2023 +0300
+
+    first commit
+
+[33mcommit 2c8677bf1d0a35b917dd41ac7e65af5dcf0ec8cb[m
+Author: Maria Zarechnaya <m.zarechnaya.m@mail.ru>
+Date:   Tue Jan 24 11:35:37 2023 +0300
+
+    Initialize project using Create React App

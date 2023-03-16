@@ -38,6 +38,8 @@
             gap: 10px;
             padding-top: 30px;
             padding-bottom: 10px;
+            gap: 10px;
+            display: flex;
 
             .five-days-item{
                 padding: 0 15px;
@@ -53,6 +55,10 @@
                     color: $font-color-title;
                     font-weight: 700;
                     font-size: 22px;
+                }
+                .temp{
+                    display: block;
+                    width: 50px;
                 }
             }
     

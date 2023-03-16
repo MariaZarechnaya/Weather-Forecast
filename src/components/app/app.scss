@@ -4,7 +4,7 @@
     width: 600px;
     margin: 0 auto;
     ;
-    padding: 10px 10px;
+    padding: 10px 20px;
     // background: $background;
     // background: $background-gradient;
     border-radius: 20px;
@@ -77,7 +77,7 @@ body{
     }
 
     .today-card{
-        max-width: 90px;
+        width: 90px !important;
     }
 }
 
@@ -110,10 +110,14 @@ body{
     }
     .app-image-block-img{
         height: 100px !important;
-        width: 200px !important;
+        width: 250px !important;
         display: flex !important; 
         margin-bottom: 50px !important;
         padding-top: 0px !important;
+        justify-content: space-between;
+        .today-icon-text{
+           line-height: 120px;
+        }
     }
     .app-image-block-img img{
         max-width: 130px !important;
@@ -123,19 +127,45 @@ body{
         align-items: center !important;
     }
     .today-card{
-        max-width: 75px;
-        font-size: 17px
+        width: 130px !important;
+        font-size: 20px
     }
     .button-five-days{
-        font-size: 15px !important;
+        font-size: 20px !important;
     }
     .five-days-item{
+        padding: 0 5px !important;
         height: 65px;
+        .item-title{
+            font-size: 20px !important;
+        }
+        P{
+            font-size: 18px;
+        }
+        .temp{
+            width: 45px !important;
+            font-size: 18px;
+        }
+    }
+    .header-block {
+        height: 100%;
+        // .header-block input{
+        //     width: 100% !important;
+        // }
+    }
+    .cards-wrapper{
+        flex-wrap: wrap;
+        gap: 15px;
     }
 
 }
 
 @media (max-width: 370px){
+    .five-days-wrapper{
+        .button-five-days{
+            font-size: 18px !important;
+        }
+    }
     .app-image-block-img{
         padding-top: 0px !important;
     }
@@ -150,10 +180,11 @@ body{
 
     }
     .today-hours-block{
-        padding: 50px 10px 0 10px;
+        // padding: 50px 10px 0 10px;
     }
     .today-card{
-       max-width: 120px !important;
+       width: 105px !important;
+       font-size: 18px;
        p{
         margin-bottom: 5px;
        }
@@ -161,11 +192,12 @@ body{
     }
 .five-days-item {
     padding: 0 8px;
+    
     .five-days-icon{
         gap: 5px !important; 
     }
-    span{
-        font-size: 18px;
+    .temp{
+        font-size: 17px !important;
     }
     p{
         font-size: 15px;
@@ -173,5 +205,6 @@ body{
     span.item-title{
         font-size: 16px !important;
     }
+
 }
 }

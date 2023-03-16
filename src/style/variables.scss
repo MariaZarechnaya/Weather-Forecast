@@ -1,21 +1,21 @@
 
 $background-morning: rgb(160,207,237);
-$background-gradient-morning: linear-gradient(0deg, rgba(160,207,237,1) 0%, rgb(212, 189, 255) 100%);
+$background-gradient-morning: linear-gradient(0deg, rgb(68, 160, 218) 0%, rgb(209, 161, 253) 100%);
 
 $background-day: rgb(109,192,224);
-$background-gradient-day: linear-gradient(0deg, rgb(107, 188, 241) 0%, rgb(241, 233, 157) 100%);
+$background-gradient-day: linear-gradient(0deg, rgb(81, 132, 209) 0%, rgb(136, 223, 190) 100%);
 
 $background-evening: rgb(217,153,138);
-$background-gradient-evening: linear-gradient(0deg, rgb(123, 97, 165) 0%, rgb(255, 178, 126) 100%);
+$background-gradient-evening: linear-gradient(0deg, rgba(233, 109, 78, 0.76) 0%, rgba(133, 125, 245, 0.795) 100%);
 
 $background-night: rgb(78,95,120);
-$background-gradient-night: linear-gradient(0deg, rgb(49, 55, 68) 0%, rgb(102, 117, 165) 100%);
+$background-gradient-night: linear-gradient(0deg, rgba(16, 14, 99, 0.842) 0%, rgba(14, 91, 143, 0.808) 100%);
 
 
 $font-size: 20px;
 
 $shadow: 1px 3px 48px -1px rgba(65, 65, 65, 0.038);
 $font-color-title: rgba(65, 65, 65, 0.616);
-$font-color-title-night: rgba(214, 214, 214, 0.74);
+$font-color-title-night: rgba(0, 0, 0, 0.514);
 $font-color: white;
-$background-block:rgba(255, 255, 255, 0.096);
+$background-block:rgba(255, 255, 255, 0.363);

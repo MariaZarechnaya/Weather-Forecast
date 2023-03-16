@@ -9,9 +9,7 @@ import tornado from '../../images/Tornado.svg'
 import clearNight from '../../images/Night-clear.svg'
 import cloudyNight from '../../images/Night-clouds.svg'
 
-
 const AppImageBlock =(props) =>{
-
     const {skyToday, id, className, classNone,  timeForChangeTheme} = props;
     let icon = '';
     let night='';
@@ -20,8 +18,6 @@ const AppImageBlock =(props) =>{
     } else{
         night = false
     }
-    
-    
     if (id && id >= 801 && id<=804 ){
         console.log(id)
         icon = clouds;
@@ -30,8 +26,6 @@ const AppImageBlock =(props) =>{
         console.log(id)
         icon = cloudyNight;
     }
-
-    
     if (id && id >= 500 && id<=531 || id && id >= 300 && id<=321 ){
         console.log(id)
         icon = rain;
@@ -52,18 +46,16 @@ const AppImageBlock =(props) =>{
         console.log(id)
         icon = clearNight;
     } 
-
     if (id && id === 771 || id && id === 781 ){
         console.log(id)
         icon = tornado;
     } 
-
     let style = skyToday? className : classNone
 
     return(
-            <div className={style}>      
-            <img src={icon} alt={skyToday} />
-            <p>{skyToday}</p>
+        <div className={style}>   
+        <img src={icon} alt={skyToday} />
+        <p className='today-icon-text'>{skyToday}</p>
         </div>
 
     )
